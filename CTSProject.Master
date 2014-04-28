@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CTSProject.master.cs" Inherits="CTSProject.CTSProject" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div> 
+        <div class="container"> 
+            <div class="row-fluid"><div class="span12"><h1>Welcome to our Website</h1></div></div> 
+            <div class="row-fluid"> 
+              <div class="span2"> 
+              <ul> 
+       <li>Diagnostique Radio</li> 
+       <li>Anomalie de récéption</li> 
+       <li>Visulaiser les résultats</li> 
+       <li>Importer les fichiers </li> 
+</ul>
+              </div> 
+              <div class="span10"> 
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder> 
+              </div> 
+            </div> 
+        </div> 
+    </div>
+    </form>
+    <script type="text/javascript"  src='<% ResolveUrl("~/js/jquery-2.1.0.min.js"); %>'></script>
+
+<script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
