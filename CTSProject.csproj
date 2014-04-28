@@ -53,6 +53,8 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ajout.aspx" />
+    <Content Include="AnomalieReception.aspx" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -121,13 +123,16 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\normalize.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DiagnosticRadio.aspx" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="Import.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.1.0.min.js" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
+    <Content Include="Resultats.aspx" />
     <Content Include="Scripts\jquery-1.6.4.js" />
     <Content Include="Scripts\jquery-1.6.4.min.js" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
@@ -138,6 +143,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajout.aspx.cs">
+      <DependentUpon>Ajout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajout.aspx.designer.cs">
+      <DependentUpon>Ajout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnomalieReception.aspx.cs">
+      <DependentUpon>AnomalieReception.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnomalieReception.aspx.designer.cs">
+      <DependentUpon>AnomalieReception.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CTSProject.Master.cs">
       <DependentUpon>CTSProject.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -152,7 +171,28 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DiagnosticRadio.aspx.cs">
+      <DependentUpon>DiagnosticRadio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DiagnosticRadio.aspx.designer.cs">
+      <DependentUpon>DiagnosticRadio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Import.aspx.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Import.aspx.designer.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resultats.aspx.cs">
+      <DependentUpon>Resultats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resultats.aspx.designer.cs">
+      <DependentUpon>Resultats.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -16,14 +16,14 @@
     
         <div> 
         <div class="container"> 
-            <div class="row-fluid"><div class="span12"><h1>Welcome to our Website</h1></div></div> 
+            <div class="row-fluid"><div class="span12"><h1>Portail diagnostic CTS</h1></div></div> 
             <div class="row-fluid"> 
               <div class="span2"> 
               <ul> 
-       <li>Diagnostique Radio</li> 
-       <li>Anomalie de récéption</li> 
-       <li>Visulaiser les résultats</li> 
-       <li>Importer les fichiers </li> 
+       <li ><a href="DiagnosticRadio.aspx">Diagnostique Radio </a></li> 
+       <li><a href="AnomalieReception.aspx">Anomalie de récéption</a></li> 
+       <li><a href="Resultats.aspx">Visulaiser les résultats</a></li> 
+       <li><a href="Import.aspx">Importer les fichiers</a> </li> 
 </ul>
               </div> 
               <div class="span10"> 
