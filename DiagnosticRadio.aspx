@@ -8,6 +8,9 @@
             width: 104%;
             height: 76px;
         }
+        .auto-style2 {
+            width: 100%;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -15,19 +18,33 @@
 &nbsp;&nbsp;
     <table class="auto-style1">
         <tr>
-            <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server"></ajaxToolkit:ToolkitScriptManager>
             <td>
-                <asp:DropDownList ID="DropDownList1" runat="server">
+                <asp:DropDownList ID="DropDownListVehicule" runat="server" ToolTip="Vehicule" OnSelectedIndexChanged="DropDownListVehicule_SelectedIndexChanged">
                 </asp:DropDownList>
-                <asp:DropDownList ID="DropDownList2" runat="server">
+                <asp:DropDownList ID="DropDownListLigne" runat="server">
                 </asp:DropDownList>
-                <asp:DropDownList ID="DropDownList3" runat="server">
+                <asp:DropDownList ID="DropDownListRadioQuality" runat="server">
                 </asp:DropDownList>
-                <br/> 
+                <br/> <br/>
 
-                <asp:TextBox runat="server" ID="TextBox1" />
-                <asp:CalendarExtender ID="CalendarExtender1" runat="server" TargetControlID="TextBox1"></asp:CalendarExtender>
+            <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server"></ajaxToolkit:ToolkitScriptManager>
+                <table class="auto-style2">
+                    <tr>
+                        <td>
 
+                <asp:TextBox runat="server" ID="TextBoxDateDepart" />
+                <asp:CalendarExtender ID="CalendarExtenderDepart" runat="server" TargetControlID="TextBoxDateDepart"></asp:CalendarExtender>
+                
+                
+                        </td>
+                        <td>
+                            <asp:TextBox ID="TextBoxDateFin" runat="server"></asp:TextBox>
+                                            <asp:CalendarExtender ID="CalendarExtenderFin" runat="server" TargetControlID="TextBoxDateFin"></asp:CalendarExtender>
+
+                        </td>
+                    </tr>
+                </table>
+                
                 
                 
 
@@ -36,6 +53,19 @@
             <td>&nbsp;</td>
         </tr>
     </table>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 &nbsp;
     
-</asp:Content>
+                
+                <asp:Button runat="server" class="btn" Text="Valider"></asp:Button>
+
+                
+                
+
+            </asp:Content>

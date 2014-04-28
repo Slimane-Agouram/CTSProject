@@ -13,48 +13,75 @@ namespace CTSProject {
     public partial class DiagnosticRadio {
         
         /// <summary>
-        /// Contrôle DropDownList1.
+        /// Contrôle DropDownListVehicule.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListVehicule;
         
         /// <summary>
-        /// Contrôle DropDownList2.
+        /// Contrôle DropDownListLigne.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListLigne;
         
         /// <summary>
-        /// Contrôle DropDownList3.
+        /// Contrôle DropDownListRadioQuality.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListRadioQuality;
         
         /// <summary>
-        /// Contrôle TextBox1.
+        /// Contrôle ScriptManager1.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::AjaxControlToolkit.ToolkitScriptManager ScriptManager1;
         
         /// <summary>
-        /// Contrôle CalendarExtender1.
+        /// Contrôle TextBoxDateDepart.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::AjaxControlToolkit.CalendarExtender CalendarExtender1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxDateDepart;
+        
+        /// <summary>
+        /// Contrôle CalendarExtenderDepart.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::AjaxControlToolkit.CalendarExtender CalendarExtenderDepart;
+        
+        /// <summary>
+        /// Contrôle TextBoxDateFin.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxDateFin;
+        
+        /// <summary>
+        /// Contrôle CalendarExtenderFin.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::AjaxControlToolkit.CalendarExtender CalendarExtenderFin;
     }
 }
