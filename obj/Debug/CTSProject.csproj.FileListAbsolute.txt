@@ -1,6 +1,0 @@
-c:\users\peewee\documents\visual studio 2013\Projects\CTSProject\CTSProject\bin\CTSProject.dll.config
-c:\users\peewee\documents\visual studio 2013\Projects\CTSProject\CTSProject\bin\CTSProject.dll
-c:\users\peewee\documents\visual studio 2013\Projects\CTSProject\CTSProject\bin\CTSProject.pdb
-c:\users\peewee\documents\visual studio 2013\Projects\CTSProject\CTSProject\obj\Debug\CTSProject.csprojResolveAssemblyReference.cache
-c:\users\peewee\documents\visual studio 2013\Projects\CTSProject\CTSProject\obj\Debug\CTSProject.dll
-c:\users\peewee\documents\visual studio 2013\Projects\CTSProject\CTSProject\obj\Debug\CTSProject.pdb

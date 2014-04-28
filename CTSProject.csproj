@@ -38,6 +38,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\ajax\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -117,6 +121,39 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_diagonals-small_25_c9c9c9_40x40.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_flat_0_313f3c_40x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_flat_0_4d4d4d_40x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_flat_100_f1eeee_40x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_highlight-soft_50_f7e17d_1x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_highlight-soft_65_e9f245_1x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_highlight-soft_75_59c9c0_1x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_highlight-soft_75_d8ff94_1x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-bg_inset-soft_95_f46f5d_1x100.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-icons_16837f_256x240.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-icons_186764_256x240.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-icons_834916_256x240.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\images\ui-icons_9f1d1d_256x240.png" />
+    <Content Include="Content\themes\Fresh-Squeezed\jquery-ui-1.9.0.custom.css" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_flat_0_303030_40x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_flat_100_383838_40x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_flat_75_f2f2f2_40x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_inset-hard_5_2b2b2b_1x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_inset-soft_15_5e5e5e_1x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_inset-soft_45_ffc905_1x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_inset-soft_75_ffec52_1x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-bg_inset-soft_95_ff6124_1x100.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-icons_1c1c1c_256x240.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-icons_303030_256x240.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-icons_774322_256x240.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-icons_8a4e19_256x240.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-icons_ffbc0f_256x240.png" />
+    <Content Include="Content\themes\Supercharged\images\ui-icons_ffc905_256x240.png" />
+    <Content Include="Content\themes\Supercharged\jquery-ui-1.9.0.custom.css" />
     <Content Include="css\bootstrap-responsive.css" />
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -131,15 +168,25 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.1.0.min.js" />
     <Content Include="packages.config" />
-    <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Resultats.aspx" />
-    <Content Include="Scripts\jquery-1.6.4.js" />
-    <Content Include="Scripts\jquery-1.6.4.min.js" />
+    <None Include="Scripts\amplify-vsdoc.js" />
+    <Content Include="Scripts\amplify.js" />
+    <Content Include="Scripts\amplify.min.js" />
+    <Content Include="Scripts\GPL-LICENSE.txt" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.10.4.js" />
     <Content Include="Scripts\jquery-ui-1.10.4.min.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\json2.min.js" />
+    <Content Include="Scripts\juice.js" />
+    <Content Include="Scripts\juice.min.js" />
+    <Content Include="Scripts\MIT-LICENSE.txt" />
+    <Content Include="Scripts\README.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
