@@ -11,7 +11,63 @@
         }
     </style>
       <script type="text/javascript"  src="/js/circles.js"></script>
+     <!--[if IE]><script  type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+<script  type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
 
+<script  type="text/javascript" src="js/prototype-1.6.0.2.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7"></script>
+<script  type="text/javascript" src="js/flotr-0.2.0-alpha.js"></script>
+<script  type="text/javascript" src="js/maplace.js"></script>
+
+     
+    <script>
+
+        function DrawGraph() {
+            var f = Flotr.draw(
+                $('graphe'), [
+                    {
+                        // => first series
+                        data: [[0, 0], [1, 2], [2, 4], [3, 6], [4, 8]],
+                        label: "y = 2x",
+                        lines: { show: true, fill: true },
+                        points: { show: true }
+                    },
+                    {
+                        // => second series
+                        data: [[0, 2.5], [1, 5.5], [2, 8.5], [3, 11.5], [4, 14.5]],
+                        label: "y = 2.5 + 3x"
+                    }
+                ]
+            );
+        }
+        function DrawStat() {
+            Circles.create({
+                id: 'graphe',
+                percentage: 43,
+                radius: 60,
+                width: 10,
+                number: 7.13,
+                text: '%',
+                colors: ['#D3B6C6', '#4B253A'],
+                duration: 400
+            });
+        }
+    </script>
+    <script>
+        function DrawMap() {
+            new Maplace({
+                show_markers: false,
+                locations: [{
+                    lat: 48.583,
+                    lon: 7.750,
+                    zoom: 8
+                }]
+            }).Load();
+
+            //ul list example
+            
+        }
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
                    <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server"></ajaxToolkit:ToolkitScriptManager>
@@ -46,26 +102,21 @@
                         <td>
                             <br />
                             <br />
-                            <asp:Button ID="ButtonValider" class="btn" runat="server" Text="Valider" />
+                            <div class="btn-group">
+                                <asp:Button ID="DrawGraphe" runat="server" class="btn btn-default" Text="Graphe" OnClientClick="DrawGraph(); return false;"/>
+                                <asp:Button runat="server" ID="DrawStat" class="btn btn-default" Text="Statistique" OnClientClick="DrawStat(); return false;" />
+                                <asp:Button runat="server" ID="DrawMap" class="btn btn-default" Text="Carte" OnClientClick="DrawMap(); return false; "/>
+</div>
                         </td>
                     </tr>
                 </table>
             </td>
             <td>&nbsp;
                 
-                <div id="circles-1"></div>
-                <script>
-                    Circles.create({
-                        id: 'circles-1',
-                        percentage: 43,
-                        radius: 60,
-                        width: 10,
-                        number: 7.13,
-                        text: '%',
-                        colors: ['#D3B6C6', '#4B253A'],
-                        duration: 400
-                    })
-                </script>
+               
+               <div id ="gmap-dropdown"></div>
+                <div id="graphe" style="width: 600px; height: 300px;"></div>
+               
                 </td>
         </tr>
     </table>

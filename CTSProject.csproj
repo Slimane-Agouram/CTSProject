@@ -168,8 +168,13 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\circles.js" />
+    <Content Include="js\excanvas.js" />
+    <Content Include="js\flotr-0.2.0-alpha.js" />
+    <Content Include="js\flotr.debug-0.2.0-alpha.js" />
     <Content Include="js\jquery-2.1.0.min.js" />
     <Content Include="js\loda-button.js" />
+    <Content Include="js\maplace.js" />
+    <Content Include="js\prototype-1.6.0.2.js" />
     <Content Include="packages.config" />
     <Content Include="Resultats.aspx" />
     <None Include="Scripts\amplify-vsdoc.js" />

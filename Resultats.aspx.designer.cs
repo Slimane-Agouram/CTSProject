@@ -67,12 +67,30 @@ namespace CTSProject {
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtenderFin;
         
         /// <summary>
-        /// Contrôle ButtonValider.
+        /// Contrôle DrawGraphe.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonValider;
+        protected global::System.Web.UI.WebControls.Button DrawGraphe;
+        
+        /// <summary>
+        /// Contrôle DrawStat.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button DrawStat;
+        
+        /// <summary>
+        /// Contrôle DrawMap.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button DrawMap;
     }
 }
